@@ -25,7 +25,7 @@ in video conferences and college lectures. the text to speech converter
 is also embedded as a feature in the UI interface to provide more
 clarity.
 
-In our project we basically focus on producing a model which can
+In this project we basically focus on producing a model which can
 recognize Fingerspelling based hand gestures in order to form a complete
 word by combining each gesture. The gestures we aim to train are as
 given in the image below.
@@ -145,9 +145,6 @@ eventually arrived at an intriguing solution. Initially, we detect the
 hand within a frame using the MediaPipe framework, extracting its
 landmarks. Subsequently, we draw and connect these landmarks on a plain
 white canvas. This innovative approach allows us to work with diverse
-backgrounds and lighting scenarios, enhancing the method\'s robustness
+backgrounds and lighting scenarios, enhancing the method's robustness
 in real-world applications
-
-![](vertopal_9903b50035b74f759061a31f4a08e266/media/image1.png){width="3.888888888888889in"
-height="5.312988845144357in"}**FLOWCHART:**
 
